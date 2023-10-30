@@ -11,12 +11,12 @@
 </head>
 
 <body>
-    <header class="headre">
-        <div class="main_contnt_header">
-            <div class="logo">
-                <img src="{{ asset('img/logo 2.png') }}" alt="Logo Carolina Carvajal">
-            </div>
-            <nav>
+    <header class="header ">
+        <div class="main_content_header flex between">
+            <nav class="flex between center-item">
+                <div class="logo">
+                    <img src="{{ asset('img/logo 2.png') }}" alt="Logo Carolina Carvajal">
+                </div>
                 <ul class="nav-links">
                     <li><a href="#">INICION</a></li>
                     <li><a href="#">NOSOTROS</a></li>
@@ -24,7 +24,7 @@
                     <li><a href="#">BLOGS</a></li>
                 </ul>
             </nav>
-            <nav>
+            <nav class=" flex center-item">
                 <ul class="nav-links">
                     <li><a href="">PRODUCTOS</a></li>
                     <li><a href="">CONTACTO</a></li>
@@ -36,3 +36,4 @@
             </nav>
         </div>
     </header>
+    @include('__partials.slider')

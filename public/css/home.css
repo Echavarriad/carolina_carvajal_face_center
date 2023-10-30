@@ -7,9 +7,36 @@
 }
 
 .header {
+    position: absolute;
+    width: 100%;
 }
 
-.header .footer {
+.left {
+    left: -right;
+}
+.header .main_content_header {
+    padding: 40px;
+}
+.header .main_content_header .nav-links {
+    list-style: none;
+}
+
+.center-item {
+    align-items: center;
+}
+
+.header .main_content_header .nav-links li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.header .main_content_header .nav-links a {
+    font-size: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer {
     background-color: #161616;
     color: #fff;
     padding: 80px;
