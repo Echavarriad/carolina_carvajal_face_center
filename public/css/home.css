@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Manrope&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+}
+
+.header .footer {
+    background-color: #161616;
+    color: #fff;
+    padding: 80px;
+}
+
+.footer .main_content {
+    margin: auto;
+}
+
+.footer .main_content .content_one {
+}
+
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.footer .main_content .content_one h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 3em;
+}
+
+.footer .main_content .content_two p {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.8em;
+}
+
+.footer .main_content .content_three .nav-links {
+    list-style: none;
+}
+.footer .main_content .content_three .nav-links li {
+    display: inline-block;
+    padding: 10px;
+}

@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    margin: 15px;
+}
+
+.footer .main_content {
+    margin: auto;
+}
+
+.footer .main_content .content_one {
+    display: flex;
+}
