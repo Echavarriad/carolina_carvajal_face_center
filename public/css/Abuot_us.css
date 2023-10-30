@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main .section_one_main .content_one {
+    width: 100%;
+}
+.main .section_one_main .section_one_main--left {
+    padding: 31px;
+    width: 100%;
+}
+
+.main .section_one_main .section_one_main--right {
+    width: 80%;
+}
+
+.main .section_one_main .section_one_main--right img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .section_one_main .section_two_main--left img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .section_one_main .section_one_main--left h1 {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 2em;
+}
+
+.main .section_one_main .section_one_main--left h4 {
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+}
+.main .section_one_main .section_one_main--left p {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2em;
+}
+
+.main .section_one_main .section_two_main--right {
+    width: 71%;
+    padding: 44px;
+}
+
+.main .section_one_main .section_two_main--left {
+    width: 100%;
+}
+.main .section_one_main .section_two_main--right h1 {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.5em;
+}
+
+.main .section_one_main .section_two_main--right p {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2em;
+}
+
+.main .section_two_main .content_two .section_about {
+    text-align: left;
+    margin: 5px;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2em;
+}
+
+.main .section_two_main .content_two .section_about h1 {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2em;
+}
+
+.main .section_two_main .content_two .section_about p {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 0.8em;
+}
+
+.main .section_two_main .content_two {
+    margin-top: 7%;
+}

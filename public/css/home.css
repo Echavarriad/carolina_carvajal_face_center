@@ -36,6 +36,159 @@
     text-decoration: none;
 }
 
+.slider_content_one {
+    background-color: #f2dbcb;
+    width: 50%;
+}
+
+.slider_content_two {
+    width: 50%;
+}
+.main .section_one_main {
+    padding: 5%;
+}
+
+.main .section_one_main .banner h1 {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 4%;
+    text-align: center;
+}
+.main .section_one_main .banner {
+    margin-bottom: 7%;
+}
+
+.main .section_one_main .banner .backgroun-img {
+    background-color: #f5f5f5;
+}
+.main .section_one_main .banner .backgroun-img img {
+    filter: opacity(0.5);
+}
+.main .section_two .footer {
+    background-color: #161616;
+    color: #fff;
+    padding: 80px;
+}
+
+.main .section_two_main .section_two_main--top h2 {
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: "Manrope", sans-serif;
+    font-size: 3em;
+}
+.main .section_two_main .section_two_text {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.main .section_two_main .section_two_text .section_two_text--one-p {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.1em;
+    color: #919191;
+}
+.main .section_two_main .section_two_text .section_two_text--two-p {
+    font-family: "Manrope", sans-serif;
+    font-size: 2.5em;
+    color: #161616;
+}
+.main .section_two_main .section_two_text .section_two_text--three-p {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.1em;
+}
+.main .section_two_main .section_two_text a {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+.main .section_three_main {
+    margin-bottom: 7%;
+}
+
+.main .section_three_main .content {
+    width: 100%;
+}
+.main .section_three_main .content img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .section_three_main .section_content_three--text {
+    padding: 4%;
+    background-color: #f5f5f5;
+}
+
+.main .section_three_main .section_content_three--text p {
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+}
+
+.main .section_three_main .section_content_three--text h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.8em;
+}
+
+.main .section_four_main {
+    margin: 5%;
+}
+
+.main .section_four_main .center {
+    justify-content: center;
+    align-items: center;
+}
+
+.main .section_four_main .section_four_content p {
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+}
+.main .section_four_main .section_four_content a {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #161616;
+}
+
+.main .section_five_content .section_five_content--top {
+    margin-bottom: 5%;
+}
+
+.main .section_five_content .section_five_content--buttom {
+    margin: 7%;
+}
+
+.main .section_five_content .section_five_content--top h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+.main .section_five_content .section_five_content--top p {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.main .section_five_content .section_five_content--text {
+    background-color: #f5f5f5;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: "Didact Gothic", sans-serif;
+}
+.main .section_five_content .section_five_content--text h3 {
+    font-size: 1.2em;
+}
+
+.main .section_five_content .section_five_content--text {
+    font-size: 1.2em;
+}
+.main .section_five_content .section_five_content--text .type {
+    color: #919191;
+    font-size: 0.9em;
+}
+
+/* img {
+    width: 100%;
+} */
+
 .footer {
     background-color: #161616;
     color: #fff;
