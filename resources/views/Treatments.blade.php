@@ -1,10 +1,14 @@
 @include('__partials.header')
 <main class="main">
     <section class="banner">
-        <div>
-            <div>
-                <div>
-                    <h1>On the other hand, we magna with right magna labial.</h1>
+        <div class="content_main">
+            <div class="subcontent">
+                <div class="content_first flex between">
+                    <p class="title">On the other hand, we magna<br> with right magna labial.</p>
+                    <div class="main_logo flex">
+                        <img src="{{ asset('icon/icon.png') }}" alt="">
+                        <p>On the other hand, we denounce with righteous</p>
+                    </div>
                 </div>
                 <div class="content_two flex">
                     <div class="section_about">
@@ -43,34 +47,41 @@
         </div>
     </section>
     <section>
-        <div>
-            <div class="flex">
-                <div><img src="{{ asset('img/01 (2).png') }}" alt=""></div>
-                <div><img src="{{ asset('') }}" alt=""></div>
-                <div><img src="{{ asset('img/04.png') }}" alt=""></div>
-                <div><img src="{{ asset('img/06.png') }}" alt=""></div>
+        <div class="flex">
+            <div>
+                <img src="{{ asset('img/01 (2).png') }}" alt="">
+                <img src="{{ asset('img/02 (1).png') }}" alt="">
             </div>
-            <div class="flex">
-                <div><img src="{{ asset('img/02 (1).png') }}" alt=""></div>
-                <div><img src="{{ asset('') }}" alt=""></div>
+            <div>
+                <div><img src="{{ asset('img/Rectangle 42 (1).png') }}" alt=""></div>
+            </div>
+            <div>
+                <div><img src="{{ asset('img/04.png') }}" alt=""></div>
                 <div><img src="{{ asset('img/05.png') }}" alt=""></div>
+            </div>
+            <div>
+                <div><img src="{{ asset('img/06.png') }}" alt=""></div>
                 <div><img src="{{ asset('img/Rectangle 45.png') }}" alt=""></div>
             </div>
         </div>
     </section>
     <section>
-        <div class="flex">
-            <div>
-                <h1>LET'S START YOUR
-                    HEALTHY ADVENTURE</h1>
+        <div class="contact flex">
+            <div class="contact_left">
+                <p>LET'S START<br> YOUR<br>
+                    HEALTHY ADVENTURE</p>
             </div>
             <div>
                 <form action="">
                     <div>
-                        <input type="text" name="" id="">
-                        <input type="text" name="" id="">
-                        <input type="text" name="" id="">
-                        <input type="text" name="" id="">
+                        <div>
+                            <input type="text" name="" id="">
+                            <input type="text" name="" id="">
+                        </div>
+                        <div>
+                            <input type="text" name="" id="">
+                            <input type="text" name="" id="">
+                        </div>
                         <textarea></textarea>
                     </div>
                 </form>

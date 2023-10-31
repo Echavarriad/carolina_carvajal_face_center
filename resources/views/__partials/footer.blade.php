@@ -1,8 +1,8 @@
 <footer class="footer">
     <div class="main_content ">
         <div class="content_one flex between">
-            <h1>Descubre nuestras opciones de tratamiento</h1>
-            <i class="fa-solid fa-arrow-up" style="color: #ffffff; font-size:2.5rem,j"></i>
+            <p>Descubre nuestras opciones<br> de tratamiento</p>
+            <img src="{{ asset('icon/top.svg') }}" alt="">
         </div>
         <div class="content_two flex between">
             <p>Newsletter <i class="fa-solid fa-circle-play" style="color: #ffffff;"></i> ingresar correo electrónico</p>

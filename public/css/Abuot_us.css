@@ -26,18 +26,33 @@
     height: 100%;
 }
 
-.main .section_one_main .section_one_main--left h1 {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 2em;
+.main .section_one_main .section_one_main--left .section_title {
+    color: #161616;
+    font-family: Manrope;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .main .section_one_main .section_one_main--left h4 {
-    font-family: "Manrope", sans-serif;
-    font-size: 1em;
+    color: #161616;
+    font-family: Manrope;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 .main .section_one_main .section_one_main--left p {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.2em;
+    color: #161616;
+    font-family: Didact Gothic;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
 }
 
 .main .section_one_main .section_two_main--right {
@@ -48,26 +63,45 @@
 .main .section_one_main .section_two_main--left {
     width: 100%;
 }
-.main .section_one_main .section_two_main--right h1 {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.5em;
+.main .section_one_main .section_two_main--right .section_subtitle {
+    color: #161616;
+    font-family: Manrope;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .main .section_one_main .section_two_main--right p {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.2em;
+    color: #161616;
+    font-family: Didact Gothic;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
 }
 
 .main .section_two_main .content_two .section_about {
     text-align: left;
-    margin: 5px;
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.2em;
+    color: #161616;
+    font-family: Didact Gothic;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
 }
 
-.main .section_two_main .content_two .section_about h1 {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.2em;
+.main .section_two_main .content_two .section_about h3 {
+    color: #161616;
+    font-family: Manrope;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .main .section_two_main .content_two .section_about p {
@@ -77,4 +111,5 @@
 
 .main .section_two_main .content_two {
     margin-top: 7%;
+    justify-content: space-between;
 }

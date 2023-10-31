@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Abuot_us.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/slider') }}">
+    <link rel="stylesheet" href="{{ asset('css/Treatments.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/products.css') }}">
     <script src="https://kit.fontawesome.com/2f38503f3e.js" crossorigin="anonymous"></script>
     <title>Home</title>
 </head>
@@ -19,10 +23,10 @@
                     <img src="{{ asset('img/logo 2.png') }}" alt="Logo Carolina Carvajal">
                 </div>
                 <ul class="nav-links">
-                    <li><a href="{{ route('Home') }}">INICION</a></li>
-                    <li><a href="{{ route('about_us') }}">NOSOTROS</a></li>
-                    <li><a href="{{ route('treatments') }}">TRATAMIENTOS</a></li>
-                    <li><a href="{{ route('blogs') }}">BLOGS</a></li>
+                    <li><a href="{{ route('Home') }}">home</a></li>
+                    <li><a href="{{ route('about_us') }}">nosotros</a></li>
+                    <li><a href="{{ route('treatments') }}">Tratamientos</a></li>
+                    <li><a href="{{ route('blogs') }}">Blogs</a></li>
                 </ul>
             </nav>
             <nav class=" flex center-item">

@@ -6,51 +6,23 @@
     box-sizing: border-box;
 }
 
-.header {
-    position: absolute;
-    width: 100%;
-}
-
-.left {
-    left: -right;
-}
-.header .main_content_header {
-    padding: 40px;
-}
-.header .main_content_header .nav-links {
-    list-style: none;
-}
-
-.center-item {
-    align-items: center;
-}
-
-.header .main_content_header .nav-links li {
-    display: inline-block;
-    padding: 15px;
-}
-
-.header .main_content_header .nav-links a {
-    font-size: 700;
-    color: #000;
-    text-decoration: none;
-}
-
-.slider_content_one {
-    background-color: #f2dbcb;
-    width: 50%;
-}
-
-.slider_content_two {
-    width: 50%;
+body {
+    background-color: #fff;
 }
 .main .section_one_main {
     padding: 5%;
 }
 
 .main .section_one_main .banner h1 {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.8em;
+    color: #161616;
+
+    text-align: center;
+    font-family: Didact Gothic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
     margin-bottom: 4%;
     text-align: center;
 }
@@ -61,6 +33,18 @@
 .main .section_one_main .banner .backgroun-img {
     background-color: #f5f5f5;
 }
+
+.main .section_one_main .banner .backgroun-img .over_img {
+    color: #161616;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.65px;
+    text-transform: uppercase;
+}
 .main .section_one_main .banner .backgroun-img img {
     filter: opacity(0.5);
 }
@@ -70,11 +54,22 @@
     padding: 80px;
 }
 
+.main .section_two_main .section_two_main--top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .main .section_two_main .section_two_main--top h2 {
-    text-align: center;
+    color: #161616;
+
+    font-family: Manrope;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px; /* 112.727% */
+    text-transform: uppercase;
     margin-bottom: 5%;
-    font-family: "Manrope", sans-serif;
-    font-size: 3em;
 }
 .main .section_two_main .section_two_text {
     margin-top: 5%;
@@ -82,22 +77,44 @@
 }
 
 .main .section_two_main .section_two_text .section_two_text--one-p {
-    font-family: "Manrope", sans-serif;
-    font-size: 1.1em;
     color: #919191;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
 }
 .main .section_two_main .section_two_text .section_two_text--two-p {
-    font-family: "Manrope", sans-serif;
-    font-size: 2.5em;
     color: #161616;
+    font-family: Manrope;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 .main .section_two_main .section_two_text .section_two_text--three-p {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.1em;
+    color: #161616;
+    text-align: justify;
+    font-family: Didact Gothic;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .main .section_two_main .section_two_text a {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1em;
+    color: #161616;
+    font-family: Didact Gothic;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.55px;
+    text-transform: uppercase;
     text-decoration: none;
 }
 .main .section_three_main {
@@ -116,15 +133,56 @@
     padding: 4%;
     background-color: #f5f5f5;
 }
+.main .section_three_main .section_content_three--text .section_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .section_three_main .section_content_three--text .section_logo h4 {
+    color: #161616;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.main .section_three_main .section_content_three--text .section_logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.main .section_three_main .section_content_three--text .section_logo h3 {
+    color: #161616;
+    font-family: Manrope;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
 
 .main .section_three_main .section_content_three--text p {
-    font-family: "Manrope", sans-serif;
-    font-size: 1em;
+    color: #161616;
+    font-family: Didact Gothic;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
 }
 
 .main .section_three_main .section_content_three--text h3 {
-    font-family: "Manrope", sans-serif;
-    font-size: 1.8em;
+    color: #161616;
+    font-family: Manrope;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .main .section_four_main {
@@ -137,8 +195,13 @@
 }
 
 .main .section_four_main .section_four_content p {
-    font-family: "Manrope", sans-serif;
-    font-size: 1em;
+    color: #161616;
+    font-family: Manrope;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 .main .section_four_main .section_four_content a {
     font-family: "Didact Gothic", sans-serif;
@@ -156,14 +219,24 @@
 }
 
 .main .section_five_content .section_five_content--top h1 {
-    font-family: "Manrope", sans-serif;
-    font-size: 2.5em;
+    color: #161616;
     text-align: center;
+    font-family: Manrope;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px; /* 112.727% */
+    text-transform: uppercase;
 }
 .main .section_five_content .section_five_content--top p {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.2em;
+    color: #161616;
     text-align: center;
+    font-family: Didact Gothic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .main .section_five_content .section_five_content--text {
@@ -174,7 +247,32 @@
     font-family: "Didact Gothic", sans-serif;
 }
 .main .section_five_content .section_five_content--text h3 {
-    font-size: 1.2em;
+    color: #161616;
+    font-family: Didact Gothic;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.main .section_five_content .section_five_content--text .type {
+    color: #919191;
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.main .section_five_content .section_five_content--text .comment {
+    color: #161616;
+    font-family: Didact Gothic;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
 }
 
 .main .section_five_content .section_five_content--text {
@@ -199,7 +297,17 @@
     margin: auto;
 }
 
+.footer .main_content .content_one p {
+    color: #fff;
+    font-family: Manrope;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px; /* 112.727% */
+    text-transform: uppercase;
+}
 .footer .main_content .content_one {
+    padding-bottom: 20px;
 }
 
 .flex {
@@ -216,14 +324,30 @@
 }
 
 .footer .main_content .content_two p {
-    font-family: "Didact Gothic", sans-serif;
-    font-size: 1.8em;
+    color: #fff;
+    text-align: justify;
+    font-family: Didact Gothic;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.footer .main_content .content_two {
+    margin-bottom: 25px;
 }
 
 .footer .main_content .content_three .nav-links {
     list-style: none;
 }
 .footer .main_content .content_three .nav-links li {
+    color: #fff;
+    font-family: Didact Gothic;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 105.882% */
+    text-transform: uppercase;
     display: inline-block;
     padding: 10px;
 }

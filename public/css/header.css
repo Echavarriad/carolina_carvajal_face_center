@@ -1,0 +1,32 @@
+.header {
+    position: absolute;
+    width: 100%;
+
+    color: #161616;
+
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.header .main_content_header {
+    padding: 40px;
+}
+.header .main_content_header .nav-links {
+    list-style: none;
+}
+
+.header .main_content_header .nav-links li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.header .main_content_header .nav-links a {
+    font-size: 700;
+    color: #000;
+    text-decoration: none;
+}

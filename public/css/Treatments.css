@@ -1,0 +1,65 @@
+* {
+}
+
+.title {
+    color: #161616;
+    font-family: Manrope;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main_logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.content_two .section_about h3 {
+    color: #161616;
+    font-family: Manrope;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.content_two .section_about p {
+    color: #161616;
+    font-family: Didact Gothic;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.subcontent {
+    margin: 7%;
+}
+
+.content_first {
+    margin-bottom: 20px;
+}
+
+.section_about {
+    padding: 15px;
+}
+
+.contact {
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+}
+
+.contact .contact_left p {
+    color: #161616;
+    font-family: Manrope;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px; /* 112.727% */
+    text-transform: uppercase;
+}

@@ -4,9 +4,12 @@
         <section class="section_one_about">
             <div class="content_one flex">
                 <div class="section_one_main--left">
-                    <h1>On the other hand, we magna with right shrinking cases
-                        are perfectly simple.</h1>
-                    <h4>being able to do what we
+                    <p class="section_title">On the other hand, we magna<br> with right
+
+                        shrinking
+                        cases<br>
+                        are perfectly simple.</p>
+                    <h4>being able to do what we<br>
                         like best, every</h4>
                     <p>be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty
                         or the obligations of business it will frequently occur that pleasures have to be repudiated and
@@ -20,10 +23,11 @@
             <div class="content_one flex">
                 <div class="section_two_main--left"><img src="{{ asset('img/Rectangle 16.png') }}" alt=""></div>
                 <div class="section_two_main--right">
-                    <h1>the claims of duty or the obligations of business</h1>
+                    <p class="section_subtitle">the claims of duty or the<br> obligations of business</p>
 
                     <p>belongs to those who fail in their duty through weakness of will, which is the same as saying
-                        through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.
+                        through shrinking from toil and pain. These cases are perfectly simple and easy to
+                        distinguish.<br><br>
 
                         In a free hour, when our power of choice is untrammelled and when nothing prevents our being
                         able to do what we like best,</p>
@@ -34,33 +38,45 @@
         <section class="section_two_main">
             <div class="content_two flex">
                 <div class="section_about">
-                    <h3>Who We Are</h3>
-                    <p>saying indignation and dislike men who are so beguiled and demoralized by the charms of pleasure
+                    <h3>Who We Are</h3><br>
+                    <p>saying indignation and dislike men who are so<br> beguiled and demoralized by the charms of<br>
+                        pleasure
                         of
-                        the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.
+                        the moment, so blinded by desire, <br>that they cannot foresee the pain and trouble<br> that are
+                        bound.
                         <br>
 
-                        blame belongs to those who fail in their duty through weakness of will, which is the same as
+                        blame belongs to those who fail in their duty<br> through weakness of will, which is the same
+                        as<br>
                         saying
                         through shrinking from toil and bain.
                     </p>
                 </div>
                 <div class="section_about">
                     <h3>What We Do</h3>
-                    <p>welcome indignation and dislike men who are so beguiled and demoralized by the charms of pleasure
-                        of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are
+                    <br>
+                    <p>welcome indignation and dislike men who are<br> so beguiled and demoralized by the charms of<br>
+                        pleasure
+                        of the moment, so blinded by desire,<br> that they cannot foresee the pain and trouble<br> that
+                        are
                         bound.<br>
 
-                        blame belongs to those who fail in their duty through weakness of will, which is the same as
+                        blame belongs to those who fail in their duty<br> through weakness of will, which is the same
+                        as<br>
                         saying through shrinking from toil and bain.</p>
                 </div>
                 <div class="section_about">
                     <h3>vision / mission / values</h3>
-                    <p>principle indignation and dislike men who are so beguiled and demoralized by the charms of
-                        pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that
+                    <br>
+                    <p>principle indignation and dislike men who are<br> so beguiled and demoralized by the charms
+                        of<br>
+                        pleasure of the moment, so blinded by desire,<br> that they cannot foresee the pain and
+                        trouble<br>
+                        that
                         are bound.<br>
 
-                        blame belongs to those who fail in their duty through weakness of will, which is the same as
+                        blame belongs to those who fail in their duty<br> through weakness of will, which is the same
+                        as<br>
                         saying through shrinking from toil and bain.</p>
                 </div>
             </div>
