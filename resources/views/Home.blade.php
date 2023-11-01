@@ -1,4 +1,4 @@
-@include('__partials.header')
+@include('__partials.header_home')
 <main class="main">
     <section class="section_one_main">
         <section class="banner">
@@ -6,23 +6,17 @@
                 <h1>DISCOVER NOW / scrolling down</h1>
             </div>
             <div class="backgroun-img">
-                <div class="over_img">
-                    <p class="type_img">video / intro</p>
-                    <div class="flex content_text">
-                        <p>Born from the knowledge
-                            carolina carvajal</p>
-                        <img src="{{ asset('icon/play.svg') }}" alt="">
-                    </div>
-                </div>
-                <img src="{{ asset('img/Rectangle 13.png') }}" alt="" width="100%">
+                <img src="{{ asset('img/video 2.png') }}" alt="" width="100%">
 
             </div>
         </section>
         <section class="section_two_main">
             <div class="section_two_main--top">
-                <h2>Nuestros tratamientos makeup<br> that’s skin loving</h2>
+                {{-- <h2>Nuestros tratamientos makeup<br> that’s skin loving</h2> --}}
+                <img src="{{ asset('img/services 01.png') }}" alt="">
             </div>
-            <div class="flex">
+
+            <div class="section_two_main--body flex">
                 <div>
                     <img src="{{ asset('img/images.png') }}" alt="">
                 </div>
@@ -82,7 +76,7 @@
     <section class="section_four_main">
         <div class="flex center">
             <div class="section_four_content">
-                <div><img src="{{ asset('img/Rectangle 17.png') }}" alt=""></div>
+                <div><img class="img" src="{{ asset('img/Rectangle 17.png') }}" alt=""></div>
                 <div>
                     <p>New survey sheds light on providers'
                         embrace of telemedicine</p>
@@ -90,7 +84,7 @@
                 </div>
             </div>
             <div class="section_four_content">
-                <div><img src="{{ asset('img/Rectangle 17 (1).png') }}" alt=""></div>
+                <div><img class="img" src="{{ asset('img/Rectangle 17 (1).png') }}" alt=""></div>
                 <div>
                     <p>New survey sheds light on providers'
                         embrace of telemedicine</p>
@@ -98,11 +92,11 @@
                 </div>
             </div>
             <div class="section_four_content">
-                <div><img src="{{ asset('img/Rectangle 18.png') }}" alt=""></div>
+                <div><img class="img" src="{{ asset('img/01(7).png') }}" alt=""></div>
                 <div>
-                    <h4>blogs y novedades</h4>
-                    <h4>How Apple Vision Pro can be deployed in healthcare</h4>
-                    <h4>leer este blog</h4>
+                    <p>New survey sheds light on providers'
+                        embrace of telemedicine</p>
+                    <a href="">... Leer este blog</a>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 @include('__partials.header')
 <main class="main">
-    <div class="flex">
-        <section>
+    <div class="main_content_blog flex">
+        {{-- <section>
             <div>
                 <div>
                     <h1>
@@ -133,7 +133,28 @@
                     <a href="">... Leer este blog</a>
                 </div>
             </div>
+        </section> --}}
+        <section>
+            <div class=" flex">
+                <div class="blog">
+                    <div><img src="{{ asset('img/titulo.png') }}" alt=""></div>
+                    <div><img src="{{ asset('img/by.png') }}" alt=""></div>
+                    <div><img src="{{ asset('img/text1.png') }}" alt=""></div>
+                    <div><img src="{{ asset('img/preguntas 1.png') }}" alt=""></div>
+                    <div><img src="{{ asset('img/preguntas 2.png') }}" alt=""></div>
+                    <div class="content_footer_blog">
+                        <a href="{{ route('blogs') }}">... Regresar a blog</a>
+                        <img src="{{ asset('img/share.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="blog">
+                    <div><img src="{{ asset('img/images(1).png') }}" alt=""></div>
+                    <div><img src="{{ asset('img/newsletter.png') }}" alt=""></div>
+                    <div><img src="{{ asset('img/mas blogs.png') }}" alt=""></div>
+                </div>
+            </div>
         </section>
+        <section></section>
     </div>
 </main>
 

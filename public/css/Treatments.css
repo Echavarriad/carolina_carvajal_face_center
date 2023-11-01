@@ -63,3 +63,8 @@
     line-height: 62px; /* 112.727% */
     text-transform: uppercase;
 }
+
+.content_main {
+    display: flex;
+    justify-content: center;
+}

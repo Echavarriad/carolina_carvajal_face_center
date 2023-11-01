@@ -9,9 +9,6 @@
 body {
     background-color: #fff;
 }
-.main .section_one_main {
-    padding: 5%;
-}
 
 .main .section_one_main .banner h1 {
     color: #161616;
@@ -45,9 +42,7 @@ body {
     letter-spacing: 1.65px;
     text-transform: uppercase;
 }
-.main .section_one_main .banner .backgroun-img img {
-    filter: opacity(0.5);
-}
+
 .main .section_two .footer {
     background-color: #161616;
     color: #fff;
@@ -58,6 +53,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3%;
 }
 
 .main .section_two_main .section_two_main--top h2 {
@@ -350,4 +346,21 @@ body {
     text-transform: uppercase;
     display: inline-block;
     padding: 10px;
+}
+.section_two_main--body {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.banner {
+    margin: 5%;
+}
+
+.img {
+    width: 100%;
+}
+
+.section_four_content {
+    padding: 20px;
 }

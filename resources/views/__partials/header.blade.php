@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ asset('css/slider') }}">
     <link rel="stylesheet" href="{{ asset('css/Treatments.css') }}">
     <link rel="stylesheet" href="{{ asset('css/products.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
     <script src="https://kit.fontawesome.com/2f38503f3e.js" crossorigin="anonymous"></script>
     <title>Home</title>
 </head>

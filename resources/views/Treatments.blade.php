@@ -2,7 +2,7 @@
 <main class="main">
     <section class="banner">
         <div class="content_main">
-            <div class="subcontent">
+            {{-- <div class="subcontent">
                 <div class="content_first flex between">
                     <p class="title">On the other hand, we magna<br> with right magna labial.</p>
                     <div class="main_logo flex">
@@ -43,12 +43,13 @@
                             tratamiento.</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
+            <img src="{{ asset('img/info.png') }}" alt="">
         </div>
     </section>
     <section>
         <div class="flex">
-            <div>
+            {{-- <div>
                 <img src="{{ asset('img/01 (2).png') }}" alt="">
                 <img src="{{ asset('img/02 (1).png') }}" alt="">
             </div>
@@ -62,27 +63,46 @@
             <div>
                 <div><img src="{{ asset('img/06.png') }}" alt=""></div>
                 <div><img src="{{ asset('img/Rectangle 45.png') }}" alt=""></div>
-            </div>
+            </div> --}}
+            <img src="{{ asset('img/galeria.png') }}" alt="" width="100%">
         </div>
     </section>
     <section>
-        <div class="contact flex">
-            <div class="contact_left">
+        <div class="contact form_main_content flex">
+            <div class="contact_left" style="width: 100%">
                 <p>LET'S START<br> YOUR<br>
                     HEALTHY ADVENTURE</p>
             </div>
-            <div>
+            <div style="width:100%">
                 <form action="">
+                    <div class="flex">
+                        <div class="content_input"><input type="text" class="form-control" name=""
+                                id="" placeholder="nombre completo">
+                        </div>
+                        <div class="content_input"><input type="text" class="form-control" name=""
+                                id="" placeholder="teléfono / movil"></div>
+                    </div>
+                    <div class="flex">
+                        <div class="content_input"><input type="text" class="form-control" name=""
+                                id="" placeholder="correo electrónico"></div>
+                        <div class="content_input"><input type="text" class="form-control" name=""
+                                id="" placeholder="asunto"></div>
+                    </div>
                     <div>
-                        <div>
-                            <input type="text" name="" id="">
-                            <input type="text" name="" id="">
+                        <textarea class="form-control" name="" id="" cols="40" rows="5" placeholder="mensaje"></textarea>
+                    </div>
+                    <div class="flex between" style="margin-top: 5px">
+                        <div class="flex" style="justify-content: center;align-items: center;">
+                            <div style="margin-right: 5px">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                            <div class="terms">
+                                <p>He leído y acepto las condiciones de tratamiento de datos // clic aquí</p>
+                            </div>
                         </div>
                         <div>
-                            <input type="text" name="" id="">
-                            <input type="text" name="" id="">
+                            <button class="button">Enviar mensaje</button>
                         </div>
-                        <textarea></textarea>
                     </div>
                 </form>
             </div>

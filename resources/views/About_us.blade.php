@@ -1,7 +1,7 @@
 @include('__partials.header')
 <main class="main">
     <section class="section_one_main">
-        <section class="section_one_about">
+        {{-- <section class="section_one_about">
             <div class="content_one flex">
                 <div class="section_one_main--left">
                     <p class="section_title">On the other hand, we magna<br> with right
@@ -80,12 +80,17 @@
                         saying through shrinking from toil and bain.</p>
                 </div>
             </div>
-        </section>
+        </section> --}}
+        <img src="{{ asset('img/info 01.png') }}" alt="" width="100%" style="margin-top: 5%;margin-bottom: 5%">
+        <div class="about_us flex">
+            <img src="{{ asset('img/info 02.png') }}" alt="" style="margin-bottom: 7%">
+        </div>
 
     </section>
-    <section class="banner">
-        <div class="backgroun-img" style="width: 100%">
-            <img src="{{ asset('img/Rectangle 13.png') }}" alt="" width="100%">
+    <section class="banner" style="margin: 0">
+        <div class="backgroun-img">
+            <img src="{{ asset('img/video 2.png') }}" alt="" width="100%">
+
         </div>
     </section>
 </main>

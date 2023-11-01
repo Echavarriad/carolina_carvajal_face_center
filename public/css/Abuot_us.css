@@ -113,3 +113,8 @@
     margin-top: 7%;
     justify-content: space-between;
 }
+
+.about_us {
+    justify-content: center;
+    align-items: center;
+}
