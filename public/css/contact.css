@@ -58,7 +58,6 @@ p.boddy {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2.4px;
-    text-transform: lowercase;
 }
 .content_input {
     padding-right: 5px;
@@ -101,7 +100,6 @@ p.boddy {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: lowercase;
 }
 
 .content_footer_blog {
@@ -123,6 +121,43 @@ p.boddy {
 }
 .blog {
     margin: 5px;
+}
+
+.section_four_content a {
+    background-image: linear-gradient(
+        to right,
+        #d3bf90,
+        #D3BF90; 50%,
+        #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.section_four_content a:before {
+    content: "";
+    background: #d3bf90;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.section_four_content a:hover {
+    background-position: 0;
+}
+
+.section_four_content a:hover::before {
+    width: 100%;
 }
 
 .first_contetn_product {

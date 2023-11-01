@@ -42,4 +42,28 @@
             </nav>
         </div>
     </header>
+    <nav role="navigation" class="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <div class="logo">
+                    <img src="{{ asset('img/logo 2.png') }}" alt="Logo Carolina Carvajal">
+                </div>
+                <li><a href="{{ route('Home') }}">Home</a></li>
+                <li><a href="{{ route('about_us') }}">Nosotros</a></li>
+                <li><a href="{{ route('treatments') }}">Tratamientos</a></li>
+                <li><a href="{{ route('blogs') }}">Blogs</a></li>
+                <li><a href="{{ route('products') }}">PRODUCTOS</a></li>
+                <li><a href="{{ route('contact') }}">CONTACTO</a></li>
+                <li><a href=""></a>ESP/ENG</li>
+                <li><a href=""></a><i class="fa-solid fa-rotate" style="color: #000000;"></i></li>
+                <li><a href=""><i class="fa-regular fa-circle-user" style="color: #000000;"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a></li>
+            </ul>
+        </div>
+    </nav>
     @include('__partials.slider_home')

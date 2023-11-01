@@ -2,7 +2,7 @@
     <div class="main_content ">
         <div class="content_one flex between">
             <p>Descubre nuestras opciones<br> de tratamiento</p>
-            <img src="{{ asset('icon/top.svg') }}" alt="">
+            <img src="{{ asset('icon/top.svg') }}" alt="" class="img_icon">
         </div>
         <div class="content_two flex between">
             <p>Newsletter <i class="fa-solid fa-circle-play" style="color: #ffffff;"></i> ingresar correo electrónico</p>

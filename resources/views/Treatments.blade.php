@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div> --}}
-            <img src="{{ asset('img/info.png') }}" alt="">
+            <img src="{{ asset('img/info.png') }}" alt="" width="100%">
         </div>
     </section>
     <section>
@@ -77,21 +77,21 @@
                 <form action="">
                     <div class="flex">
                         <div class="content_input"><input type="text" class="form-control" name=""
-                                id="" placeholder="nombre completo">
+                                id="" placeholder="Nombre completo">
                         </div>
                         <div class="content_input"><input type="text" class="form-control" name=""
-                                id="" placeholder="teléfono / movil"></div>
+                                id="" placeholder="Teléfono / movil"></div>
                     </div>
                     <div class="flex">
                         <div class="content_input"><input type="text" class="form-control" name=""
-                                id="" placeholder="correo electrónico"></div>
+                                id="" placeholder="Correo electrónico"></div>
                         <div class="content_input"><input type="text" class="form-control" name=""
-                                id="" placeholder="asunto"></div>
+                                id="" placeholder="Asunto"></div>
                     </div>
-                    <div>
-                        <textarea class="form-control" name="" id="" cols="40" rows="5" placeholder="mensaje"></textarea>
+                    <div class="content_input">
+                        <textarea class="form-control" name="" id="" cols="40" rows="5" placeholder="Mensaje"></textarea>
                     </div>
-                    <div class="flex between" style="margin-top: 5px">
+                    <div class="flex between content_input" style="margin-top: 5px">
                         <div class="flex" style="justify-content: center;align-items: center;">
                             <div style="margin-right: 5px">
                                 <input type="checkbox" name="" id="">

@@ -82,8 +82,9 @@
             </div>
         </section> --}}
         <img src="{{ asset('img/info 01.png') }}" alt="" width="100%" style="margin-top: 5%;margin-bottom: 5%">
+        <img src="{{ asset('img/info 01.png') }}" alt="" width="100%" style="margin-top: 5%;margin-bottom: 5%">
         <div class="about_us flex">
-            <img src="{{ asset('img/info 02.png') }}" alt="" style="margin-bottom: 7%">
+            <img src="{{ asset('img/info 02.png') }}" alt="" style="margin-bottom: 7%" width="80%">
         </div>
 
     </section>

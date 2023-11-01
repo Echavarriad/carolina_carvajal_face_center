@@ -2,6 +2,9 @@
     <div class="slider_content_two left">
         <img src="{{ asset('img/slider (1).png') }}" alt="" width="100%">
     </div>
+    {{-- @if ({{ route('routeName', ['id'=>1]) }})
+        <p>hola</p>
+    @endif --}}
     {{-- <div class="img_over_banner">
         <img src="{{ asset('img/mujer 2.png') }}" alt="">
 

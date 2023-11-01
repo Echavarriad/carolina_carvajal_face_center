@@ -1,24 +1,23 @@
 @include('__partials.header_home')
 <main class="main">
     <section class="section_one_main">
-        <section class="banner">
+        <section class="banner fade-bottom reveal">
             <div>
                 <h1>DISCOVER NOW / scrolling down</h1>
             </div>
             <div class="backgroun-img">
                 <img src="{{ asset('img/video 2.png') }}" alt="" width="100%">
-
             </div>
         </section>
         <section class="section_two_main">
             <div class="section_two_main--top">
                 {{-- <h2>Nuestros tratamientos makeup<br> that’s skin loving</h2> --}}
-                <img src="{{ asset('img/services 01.png') }}" alt="">
+                <img src="{{ asset('img/services 01.png') }}" alt="" width="100%">
             </div>
 
             <div class="section_two_main--body flex">
                 <div>
-                    <img src="{{ asset('img/images.png') }}" alt="">
+                    <img src="{{ asset('img/images.png') }}" alt="" width="100%">
                 </div>
                 <div class="section_two_text">
                     <p class="section_two_text--one-p">Perfilamiento y aumento<br> labial.</p>
@@ -44,19 +43,17 @@
     <section class="section_three_main">
         <div class="flex">
             <div class="content section_content_one">
-                <img src="{{ asset('img/01.png') }}" alt="">
+                <img src="{{ asset('img/01.png') }}" alt="" width="100%">
             </div>
             <div class="content section_content_two">
-                <img src="{{ asset('img/02.png') }}" alt="">
+                <img src="{{ asset('img/02.png') }}" alt="" width="100%">
             </div>
             <div class="content section_content_three section_content_three--text">
                 <div class="flex">
                     <div>
-                        <img src="{{ asset('icon/icono.png') }}" alt="">
+                        <img src="{{ asset('img/info(5).png') }}" alt="">
                     </div>
-                    <div class="section_logo">
-                        <h4>environmentally<br> friendly<br> products</h4>
-                    </div>
+
                 </div>
                 <div class="section_title">
                     <h3>We have carefully selected each ingredient, so that not only the products</h3>
@@ -75,7 +72,7 @@
     </section>
     <section class="section_four_main">
         <div class="flex center">
-            <div class="section_four_content">
+            <div class="section_four_content overlay">
                 <div><img class="img" src="{{ asset('img/Rectangle 17.png') }}" alt=""></div>
                 <div>
                     <p>New survey sheds light on providers'
@@ -83,7 +80,7 @@
                     <a href="">... Leer este blog</a>
                 </div>
             </div>
-            <div class="section_four_content">
+            <div class="section_four_content overlay">
                 <div><img class="img" src="{{ asset('img/Rectangle 17 (1).png') }}" alt=""></div>
                 <div>
                     <p>New survey sheds light on providers'
@@ -91,7 +88,7 @@
                     <a href="">... Leer este blog</a>
                 </div>
             </div>
-            <div class="section_four_content">
+            <div class="section_four_content overlay">
                 <div><img class="img" src="{{ asset('img/01(7).png') }}" alt=""></div>
                 <div>
                     <p>New survey sheds light on providers'
@@ -133,5 +130,24 @@
         </div>
     </section>
 </main>
+<script>
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            } else {
+                reveals[i].classList.remove("active");
+            }
+        }
+    }
+
+    window.addEventListener("scroll", reveal);
+</script>
 
 @include('__partials.footer')

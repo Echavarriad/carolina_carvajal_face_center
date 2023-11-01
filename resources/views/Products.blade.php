@@ -9,7 +9,7 @@
                 <img src="{{ asset('icon/go.png') }}" alt="">
                 <h4>click aqui<br> para filtrar<br> por tags</h4>
             </div> --}}
-            <img src="{{ asset('img/filtrar.png') }}" alt="">
+            <img src="{{ asset('img/filtrar.png') }}" alt="" width="100%">
         </div>
     </section>
 
@@ -57,7 +57,7 @@
                 </div>
 
             </div> --}}
-            <img src="{{ asset('img/bloque 01.png') }}" alt="">
+            <img src="{{ asset('img/bloque 01.png') }}" alt="" width="100%">
         </div>
     </section>
     <section>
@@ -108,7 +108,7 @@
                     </div>
                 </div>
             </div> --}}
-            <img src="{{ asset('img/bloque 02.png') }}" alt="">
+            <img src="{{ asset('img/bloque 02.png') }}" alt="" width="100%">
         </div>
     </section>
 
