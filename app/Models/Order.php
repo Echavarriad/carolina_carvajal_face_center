@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use Jenssegers\Date\Date;
 
 class Order extends Model {
-	
+
     public $timestamps = true;
     protected $guarded = ['id'];
 
@@ -38,7 +38,7 @@ class Order extends Model {
         return new Date($this->attributes['order_date']);
     }
 
-    public function getSubtotalCustomerFormatAttribute($query){
+    /* public function getSubtotalCustomerFormatAttribute($query){
       return core()->currency($this->attributes['sub_total'] + $this->attributes['tax_amount']);
     }
 
@@ -65,7 +65,7 @@ class Order extends Model {
 
     public function getShippingFormatAttribute($query){
       return core()->currency($this->attributes['shipping_rate']);
-    }
+    } */
 
     public function getStatusBadgeAttribute($query) {
       	return '<span class="status badge badge-secondary" style="background: ' . $this->status->color . ';color:#fff;">' . $this->status->name . '</span>';
@@ -92,5 +92,5 @@ class Order extends Model {
     public function scopeForUpdateInSiigo($query){
       return $query->where('status_id', 2)->where('update_stock_in_siigo', false)->with('items')->get();
     }
-    
+
 }

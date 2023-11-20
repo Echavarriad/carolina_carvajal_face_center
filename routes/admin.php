@@ -9,7 +9,10 @@ use App\Http\Controllers\Auth\AdminLoginController;
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\SectionController;
 use App\Http\Controllers\Admin\SliderController;
-
+use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\OrderController;
+use App\Http\Controllers\Admin\ShippingController;
+use App\Http\Controllers\Admin\ArticleController;
 
 
 Route::get('/', [AdminLoginController::class , 'showLoginForm'])->name('admin.login');
@@ -31,11 +34,11 @@ Route::resource('articles', ArticleController::class);
 Route::resource('users', UserController::class);
 
 
-Route::resource('products', 'ProductController');
-Route::resource('status', 'StatusController');
-Route::resource('shippings', 'ShippingController');
-Route::get('orders', 'OrderController@index')->name('order.index');
-Route::get('show/{id}', 'OrderController@show')->name('order.show');
-Route::get('order-sales', 'OrderController@index_sales')->name('order.index_sales');
-Route::get('order-download/{id}', 'OrderController@download')->name('order.download');
-Route::post('export-orders', 'OrderController@export')->name('order.export');
+Route::resource('products', ProductController::class);
+Route::resource('status', StatusController::class);
+Route::resource('shippings', ShippingController::class);
+Route::get('orders', [OrderController::class ,'index'])->name('order.index');
+Route::get('show/{id}', [OrderController::class , 'show'])->name('order.show');
+Route::get('order-sales', [OrderController::class, 'index_sales'])->name('order.index_sales');
+Route::get('order-download/{id}', [OrderController::class ,'download'])->name('order.download');
+Route::post('export-orders', [OrderController::class, 'export'])->name('order.export');

@@ -63,7 +63,7 @@ class Product extends Model {
         }else{
             $html .= '<h5>' . core()->currency($this->price) . '</h5>';
         }
-        
+
         return $html ;
     }
 
@@ -73,7 +73,7 @@ class Product extends Model {
             return core()->currency($this->price_min);
         }
 
-        
+
 
         return core()->currency($price);
     }
@@ -83,7 +83,7 @@ class Product extends Model {
         if ($this->categories()->count() > 0) {
             $category = $this->categories()->where('parent_id', null)->first();
         }
-        
+
         return $category;
     }
 
@@ -107,7 +107,7 @@ class Product extends Model {
         if ($quantity > $this->stock) {
            return false;
         }
-        return true; 
+        return true;
     }
 
     public function getImageMainAttribute() {
@@ -125,21 +125,21 @@ class Product extends Model {
     }
 
     public function scopeFilterPrice($query, $min_price, $max_price){
-        $query->where(function ($q) use ($min_price, $max_price) {   
+        $query->where(function ($q) use ($min_price, $max_price) {
             $q->where('products.price_min', '>=', $min_price)
-            ->where('products.price_min', '<=', $max_price);            
+            ->where('products.price_min', '<=', $max_price);
         });
         return $query;
     }
 
     public function scopeFilterAttributes($query, $attrs){
-        $query->where('variations.is_hidden',0); 
+        $query->where('variations.is_hidden',0);
         foreach ($attrs as $value) {
-          $query->where(function ($q) use ($value) {   
-            $q->where('variations.values', 'LIKE', "%$value%");            
+          $query->where(function ($q) use ($value) {
+            $q->where('variations.values', 'LIKE', "%$value%");
           });
         }
         return $query;
     }
-    
+
 }
