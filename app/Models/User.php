@@ -2,44 +2,62 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
+use Jenssegers\Date\Date;
 
-class User extends Authenticatable
-{
-    use HasApiTokens, HasFactory, Notifiable;
+class User extends Authenticatable {
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array<int, string>
-     */
+    use Notifiable;
+
     protected $fillable = [
-        'name',
+        'name',        
+        'lastname',              
+        'document',
+        'type_document',
+        'mobile',
         'email',
         'password',
     ];
 
     /**
-     * The attributes that should be hidden for serialization.
+     * The attributes that should be hidden for arrays.
      *
-     * @var array<int, string>
+     * @var array
      */
-    protected $hidden = [
-        'password',
-        'remember_token',
-    ];
 
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-        'password' => 'hashed',
-    ];
+    protected $hidden = ['password', 'change_password'];
+
+    public function getLastLoginAttribute($date) {
+        return new Date($date);
+    }
+
+    public function getCreatedAtAttribute($date) {
+        return new Date($date);
+    }
+
+    public function setPasswordAttribute($password) {
+        $this->attributes['password'] = bcrypt($password);
+    }
+
+    public function orders(){
+        return $this->hasMany(Order::class, 'customer_id')->with('items', 'status')->orderBy('order_date', 'DESC');
+    }
+
+    public function address(){
+        return $this->hasMany(CustomerAddress::class, 'customer_id')->with('city', 'state')->orderBy('principal', 'DESC');
+    }
+
+    public function getFormatDateAttribute(){
+        return $this->created_at->format('d') . '/' . $this->created_at->format('m') . '/' .  $this->created_at->format('Y') . ' ' . $this->created_at->format('h') . ':' .  $this->created_at->format('i') . ' ' .  $this->created_at->format('A');
+    }
+
+    public function changePassword($changePassword, $password){
+        $this->change_password = $changePassword;
+        $this->password = $password;
+
+        $this->save();
+    }
+
 }
+
